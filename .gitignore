@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.log
+# Keep large/raw datasets out of Git unless you have permission to publish them.
+data/*.csv
+data/*.xlsx
+!data/README.md
