@@ -170,17 +170,18 @@ Users can:
 
 ![Development predictor dashboard](dashboard-overview.png)
 
-### Model Comparison
+### Interactive Country Prediction
 
-![Random Forest vs XGBoost comparison](https://github.com/user-attachments/assets/)
+![Random Forest vs XGBoost comparison](country-prediction.png)
 
-### Formula-Free Feature Comparison
+### Random Forest vs. XGBoost
+![Model comparison](model-comparison.png)
 
-![Full features versus formula-free features](https://github.com/user-attachments/assets/)
+### Full Features vs. Formula-Free Features
+![Formula-free comparison](formula-free-comparison.png)
 
 ### Feature Importance
-
-![Feature importance for GDP per capita, HDI, and Happiness Score](https://github.com/user-attachments/assets/)
+![Feature importance](feature-importance.png)
 
 > Replace the image URLs above with the actual GitHub image URLs for your uploaded screenshots. You can obtain each URL by opening an uploaded screenshot on GitHub and copying its image address.
 
