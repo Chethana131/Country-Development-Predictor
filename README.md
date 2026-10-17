@@ -168,7 +168,7 @@ Users can:
 
 ### Dashboard Overview
 
-![Development predictor dashboard](https://github.com/user-attachments/assets/)
+![Development predictor dashboard](dashboard-overview.png)
 
 ### Model Comparison
 
