@@ -46,28 +46,6 @@ The data-preparation notebook also expects the original source files `WDICSV.csv
 
 Do not replace the missing CSV with an unrelated or guessed dataset: the columns and preprocessing need to match the trained model and application.
 
-## Setup (after restoring missing data/assets)
-
-1. Create and activate a Python virtual environment.
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Place the CSV at `data/merged_development_data_full.csv` and the plots in `assets/`.
-4. Update the file paths in `app/app.py` to use `data/merged_development_data_full.csv`, `models/model.pkl`, and the image files in `assets/`.
-5. Run the app from the repository root:
-
-   ```bash
-   streamlit run app/app.py
-   ```
-
-## Model notes
-
-The included notebook defines 16 socioeconomic input features and three targets: `gdp_per_capita`, `HDI`, and `happiness_score`. It trains a `MultiOutputRegressor` wrapping a `RandomForestRegressor`. Review the notebook for the exact preprocessing and evaluation steps before retraining.
-
-The current app and notebook use somewhat different target-column naming conventions (for example, `GDP per capita` in the app versus `gdp_per_capita` in the notebook). Confirm that the saved model, dataset schema, and displayed units align before publishing a fully reproducible release.
 
 ## Limitations
 
