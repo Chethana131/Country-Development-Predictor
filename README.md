@@ -183,7 +183,7 @@ Users can:
 ### Feature Importance
 ![Feature importance](feature-importance.png)
 
-> Replace the image URLs above with the actual GitHub image URLs for your uploaded screenshots. You can obtain each URL by opening an uploaded screenshot on GitHub and copying its image address.
+
 
 ## Technology Stack
 
@@ -223,7 +223,7 @@ Country-Development-Predictor/
     └── feature-importance.png
 ```
 
-The actual repository currently stores several files in the root directory. The structure above is a suggested organization for future cleanup.
+
 
 ## Limitations
 
