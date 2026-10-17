@@ -213,14 +213,7 @@ Country-Development-Predictor/
 │   ├── data_preprocessing_and_neural_network.ipynb
 │   ├── random_forest_model.ipynb
 │   └── random_forest_model_experiment.ipynb
-|
-├── docs/
-│   └── project_report.pdf
-|
-└── screenshots/
-    ├── dashboard.png
-    ├── model-comparison.png
-    └── feature-importance.png
+
 ```
 
 
